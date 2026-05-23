@@ -14,7 +14,6 @@
     },
 
    "components":[
-
     {
         "type":"button",
         "content":"Click Me",
@@ -54,7 +53,7 @@
         "content":"Hello World",
 
         "style":{
-            "color":"#773838",
+            "color":"#1144B3",
             "font-size":"24px",
             "font-family":"Arial"
         },

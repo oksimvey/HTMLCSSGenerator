@@ -1,7 +1,7 @@
-package utils.style;
+package utils.component;
 
 public enum PosAlign {
-
+    FREE,
     CENTER,
     TOP_LEFT,
     CENTER_LEFT,

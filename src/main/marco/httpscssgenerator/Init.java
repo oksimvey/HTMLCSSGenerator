@@ -1,5 +1,12 @@
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.DirectoryStream;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.concurrent.ScheduledThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
+
+import javax.naming.spi.DirectoryManager;
 
 public class Init {
 
@@ -7,20 +14,16 @@ public class Init {
     public static void main(String[] args) {
 
         try {
-            FileWriter file = new FileWriter("index.html");
+            FileWriter file = new FileWriter("Main.java");
 
-            file.write("<!DOCTYPE html>\n");
-            file.write("<html>\n");
-            file.write("<head>\n");
-            file.write("    <title>Minha Pagina</title>\n");
-            file.write("</head>\n");
-            file.write("<body>\n");
-            file.write("    <h1>Hello World!</h1>\n");
-            file.write("    <p>Gerado por Java</p>\n");
-            file.write("</body>\n");
-            file.write("</html>\n");
+            file.write("public class Main {\n" +
+                    "    public static void main(String[] args) {\n" +
+                    "        System.out.println(\"Hello, World!\");\n" +
+                    "    }\n" +
+                    "}\n");
 
             file.close();
+
 
         } catch (IOException e) {
             e.printStackTrace();

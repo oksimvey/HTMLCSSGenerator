@@ -1,4 +1,5 @@
-package utils;
+package utils.component;
+
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -12,8 +13,9 @@ import utils.event.HTMLEvent;
 
 public class Component {
 
-
     ComponentType type;
+
+    ComponentPosition position;
 
     String content;
 
@@ -27,8 +29,7 @@ public class Component {
 
     
 
-
-
-
     
+
+
 }
