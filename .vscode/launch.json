@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Init<HTMLCSSGenerator>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "marco.htmlcssgenerator.Init",
+            "projectName": "HTMLCSSGenerator",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
