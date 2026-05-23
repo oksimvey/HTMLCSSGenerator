@@ -1,0 +1,91 @@
+{
+
+    "name":"Example Page",
+
+
+    "background":{
+
+        "color":"#ffffff",
+        "image":"https://example.com/image.png",
+        "position":"center",
+        "size":"cover"
+
+
+    },
+
+   "components":[
+
+    {
+        "type":"button",
+        "content":"Click Me",
+        "posx": "center",
+        "posy": "center",
+        "style":{
+            "color":"#ffffff",
+            "background-color":"#007bff",
+            "border":"none",
+            "padding":"10px 20px",
+            "font-size":"16px",
+            "cursor":"pointer"
+        },
+        "hover":{
+            "functions": [
+                {
+                    "path":"https://example.com/hover-function.js",
+                    "flagged":true
+                }
+            ]
+    
+        },
+        "click":{
+            "functions": [
+                {
+                    "path":"https://example.com/click-function.js",
+                    "flagged":true
+                }
+            ]
+        }
+    },
+
+
+    {
+        "type":"text",
+
+        "content":"Hello World",
+
+        "style":{
+            "color":"#773838",
+            "font-size":"24px",
+            "font-family":"Arial"
+        },
+
+        "hover":{
+            "functions": [
+                {
+                    "path":"https://example.com/hover-function.js",
+                    "flagged":true
+                }
+            ]
+    
+        },
+
+        "childrens": [
+            {
+
+            }
+        ]
+    },
+
+    {
+
+
+    }
+
+   ]
+
+    
+
+
+
+
+}
