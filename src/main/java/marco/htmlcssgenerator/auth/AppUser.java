@@ -2,6 +2,7 @@ package marco.htmlcssgenerator.auth;
 
 import jakarta.persistence.*;
 
+
 @Entity
 public class AppUser {
 
